@@ -38,6 +38,7 @@ html {
 
 /* util 시작 */
 
+
 /* 중앙 정렬 레이아웃 */
 
 .layout {
@@ -46,7 +47,16 @@ html {
 }
 
 
-@media screen and (max-width : 1050px) {
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+/* util 끝 */
+
+/* @media screen and (max-width : 1050px) {
     .layout {
         margin: 0 1%;
         width: auto;
@@ -59,7 +69,7 @@ html {
         margin-top: 16px;
     }
 
-    header {
+    .topmenu {
         height: 56px;
     }
     
@@ -71,7 +81,7 @@ html {
         display: block !important;
     }
 
-}
+} */
 
 /* header */
 
@@ -83,13 +93,14 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 3;
+    z-index: 2;
 }
 
 .topmenu {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 56px;
 }
 
 .topmenu ul > li, a {
@@ -206,7 +217,6 @@ header {
 
 .dev {
     grid-area: dev;
-    /* width: 50%; */
 }
 
 .index h1 {
@@ -280,7 +290,7 @@ footer {
 }
 
 .footer {
-    padding : 55px 0;
+    padding : 25px 0;
     text-align: center;
 }
 
@@ -295,4 +305,40 @@ footer {
 
 .footer ul>li:last-child {
     color : #999;
+}
+
+/* 반응형 */
+
+@media screen and (max-width : 1050px) {
+    .layout {
+        margin: 0 1%;
+        width: auto;
+    }   
+}
+
+@media screen and (max-width : 665px) {
+    
+    .menu-area {
+        display: none;
+    }
+
+    .hamburger {
+        display: block !important;
+    }
+
+    .index {
+        padding : 30px 10px;
+        display: grid;
+        grid-gap : 20px;
+        grid-template-areas: 'banner'
+                             'dev'
+                             'board';
+
+        grid-template-columns: none;
+        
+    }
+    .banner {
+        height: 200px;
+    }
+
 }

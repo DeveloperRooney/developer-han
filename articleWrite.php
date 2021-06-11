@@ -1,13 +1,6 @@
-<?php
 
-require_once "header.html";
-
-?>
-
-    <title>Document</title>
-</head>
-<body>
-
+<div class="wrapper">
+    <?php require_once "header.html"; ?>
     <div class="layout">
         <div class="article-form">
             <h1>글작성</h1>
@@ -18,11 +11,12 @@ require_once "header.html";
                     <option>취미 게시판</option>
                 </select>
             </div>
-            <textarea name="content" id="editor">
+        <textarea name="content" id="editor">
             </textarea>
         </div>
     </div>    
     <?php require_once "footer.php"; ?>
+</div>
 </body>
 <script>
     ClassicEditor

@@ -1,9 +1,5 @@
-<?php
-
-require_once "header.html";
-
-?>
-
+<div class="wrapper">
+<?php require_once "header.html"; ?>
 <div class="login-area layout">
     <div class="login">
         <h1>반갑습니다</h1>
@@ -14,8 +10,6 @@ require_once "header.html";
     </div>
 </div>
 
-<?php
+<?php require_once "footer.php"; ?>
 
-require_once "footer.php";
-
-?>
+</div>
