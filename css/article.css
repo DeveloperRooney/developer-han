@@ -1,0 +1,60 @@
+.article-form {
+    margin : 65px auto;
+    width: 95%;
+    z-index: inherit;
+}
+
+.article-form h1 {
+    padding: 20px 0;
+    font-size: 25px;
+    font-weight: bold;
+    color: #125d98;
+}
+
+
+.article-form .sub-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-area input {
+    width: 80%;
+    height: 30px;
+    padding : 10px 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    border : 1px solid rgb(189, 187, 187);
+    border-radius: 2px;
+}
+
+.sub-area input {
+    outline: none;
+}
+
+.sub-area select {
+    width: 18%;
+    height: 30px;
+    border : 1px solid rgb(189, 187, 187);
+    border-radius: 2px;
+}
+
+
+
+.ck-editor__editable {
+    height: 400px;
+    font-weight: 100;
+}
+
+@media screen and (max-width : 665px){
+    .ck-editor__editable {
+        height: 300px;
+    }   
+    
+    .sub-area input {
+        width: 75%;
+    }
+    
+    .sub-area select {
+        width: 23%;
+    }
+}
