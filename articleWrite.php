@@ -1,6 +1,6 @@
-
+<?php require_once "head.php"; ?>
 <div class="wrapper">
-    <?php require_once "header.html"; ?>
+    <?php require_once "header.php"; ?>
     <div class="layout">
         <div class="article-form">
             <h1>글작성</h1>

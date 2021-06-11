@@ -1,6 +1,8 @@
+<?php require_once "head.php"; ?>
+
 <div class="wrapper">
 
-    <?php require_once "header.html"; ?>
+    <?php require_once "header.php"; ?>
     <div class="index layout">
         <div class="banner">
         </div>

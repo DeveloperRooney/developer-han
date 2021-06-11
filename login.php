@@ -1,5 +1,6 @@
+<?php require_once "head.php"; ?>
 <div class="wrapper">
-<?php require_once "header.html"; ?>
+<?php require_once "header.php"; ?>
 <div class="login-area layout">
     <div class="login">
         <h1>반갑습니다</h1>
