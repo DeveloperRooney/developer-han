@@ -1,4 +1,4 @@
-<?php require_once "head.php";?>
+<?php require_once "head.php"; ?>
 
 <div class="wrapper">
     <?php require_once "header.php";?>
@@ -10,7 +10,7 @@
             <h1>BOARD</h1>
             <div class="article-info">
                 <h2>전체글입니다.</h2>
-                <select>
+                <select onchange="articleChange()">
                     <option>전체글</option>
                     <option>자유 게시판</option>
                     <option>취미 게시판</option>
@@ -104,26 +104,62 @@
             <section class="article-section-mobile">
                 <div>
                     <div class="article-title">
-                        자바가 어떤 언어인지 알고 싶습니다. 도움 부탁드립니다.
+                        <a href="">
+                            자바가 어떤 언어인지 알고 싶습니다.
+                        </a>
                     </div>
                     <div class="writer-info">
-                        김수한 2021-06-12 16:52 조회 100
+                        김수한&nbsp;&nbsp;2021-06-12 16:52&nbsp;&nbsp;조회 100
                     </div>
                 </div>
                 <div>
                     <div class="article-title">
-                        자바가 어떤 언어인지 알고 싶습니다. 도움 부탁드립니다.
+                        <a href="">
+                            자바가 어떤 언어인지 알고 싶습니다.
+                        </a>
                     </div>
                     <div class="writer-info">
-                        김수한 2021-06-12 16:52 조회 100
+                        김수한&nbsp;&nbsp;2021-06-12 16:52&nbsp;&nbsp;조회 100
                     </div>
                 </div>
                 <div>
                     <div class="article-title">
-                        자바가 어떤 언어인지 알고 싶습니다. 도움 부탁드립니다.
+                        <a href="">
+                            자바가 어떤 언어인지 알고 싶습니다.
+                        </a>
                     </div>
                     <div class="writer-info">
-                        김수한 2021-06-12 16:52 조회 100
+                        김수한&nbsp;&nbsp;2021-06-12 16:52&nbsp;&nbsp;조회 100
+                    </div>
+                </div>
+                <div>
+                    <div class="article-title">
+                        <a href="">
+                            자바가 어떤 언어인지 알고 싶습니다.
+                        </a>
+                    </div>
+                    <div class="writer-info">
+                        김수한&nbsp;&nbsp;2021-06-12 16:52&nbsp;&nbsp;조회 100
+                    </div>
+                </div>
+                <div>
+                    <div class="article-title">
+                        <a href="">
+                            자바가 어떤 언어인지 알고 싶습니다.
+                        </a>
+                    </div>
+                    <div class="writer-info">
+                        김수한&nbsp;&nbsp;2021-06-12 16:52&nbsp;&nbsp;조회 100
+                    </div>
+                </div>
+                <div>
+                    <div class="article-title">
+                        <a href="">
+                            자바가 어떤 언어인지 알고 싶습니다.
+                        </a>
+                    </div>
+                    <div class="writer-info">
+                        김수한&nbsp;&nbsp;2021-06-12 16:52&nbsp;&nbsp;조회 100
                     </div>
                 </div>
             </section>

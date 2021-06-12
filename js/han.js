@@ -1,4 +1,4 @@
-// 드롭다운 메뉴 관련 함수
+// 드롭다운 메뉴 관련 함수 시작
 
 function hamburger() {
 
@@ -19,3 +19,14 @@ window.addEventListener('resize', function() {
         dropdown.style.display = "none";
     }
 }, true);
+
+
+// 드롭다운 메뉴 관련 함수 끝
+
+
+// 게시판 관련 함수 시작
+
+function articleChange() {
+    
+    alert("테스트");
+}
