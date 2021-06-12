@@ -25,7 +25,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="article.php">
                             <i class="fas fa-chalkboard"></i>
                             BOARD
                         </a>
@@ -71,7 +71,7 @@
                     <a href="#">FRONT</a>
                 </li>
                 <li>
-                    <a href="#">BOARD</a>
+                    <a href="article.php">BOARD</a>
                 </li>
                 <li>
                     <a href="#">JOIN</a>

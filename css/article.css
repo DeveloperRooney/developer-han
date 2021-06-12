@@ -1,18 +1,30 @@
-/* 글 리스트 */
+/* ------------ 글 리스트 --------------- */
 
 .article-list {
     width: 88%;
     margin: 0 auto;
+    padding-top: 30px;
 }
 
+
+
+/* 게시판 설명 영역 */
+
 .article-list h1{
-    font-size: 22px;
+    font-size: 28px;
     font-weight: bold;
     color: #125d98;
     padding: 8px 0;
 }
 
+.article-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .article-list h2 {
+    display: inline-block;
     padding: 8px 0;
 }
 
@@ -21,36 +33,138 @@
     height: 25px;
 }
 
-.article-list > section {
-    padding : 40px 0;
+/* 게시판 글 리스트 영역 */
+
+.article-list > .article-section-mobile {
+    display: none;
 }
 
-.article-list > section > ul {
+.article-list > .article-section-normal {
+    padding : 40px 0;
+    display: block;
+}
+
+.article-list > .article-section-normal > ul {
     padding : 7px 0 ;
     display: flex;
     justify-content: space-between;
 }
 
-.article-list > section > ul > li {
+.article-list > .article-section-normal > ul > li {
     text-align: center;
 }
 
-.article-list > section > ul > li:nth-child(1) {
+.article-list > .article-section-normal > ul > li:nth-child(1) {
     width: 10%;
 }
 
-.article-list > section > ul > li:nth-child(2) {
+.article-list > .article-section-normal > ul > li:nth-child(2) {
     width: 40%;
 }
-.article-list > section > ul > li:nth-child(3) {
+.article-list > .article-section-normal > ul > li:nth-child(3) {
     width: 10%;
 }
-.article-list > section > ul > li:nth-child(4) {
+.article-list > .article-section-normal > ul > li:nth-child(4) {
     width: 30%;
 }
-.article-list > section > ul > li:nth-child(5) {
+.article-list > .article-section-normal > ul > li:nth-child(5) {
     width: 10%;
 }
+
+/* 검색창 에어리어 */
+.article-list > .article-section-normal > ul:nth-last-child(1) {
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+
+.article-list > .article-section-normal > ul:nth-last-child(1) > li:nth-last-child(1) > a {
+    display: inline-block;
+    color: white;
+    background-color: #125d98;
+    padding : 8px 8px;
+    border-radius: 4px;
+}
+
+.article-list > .article-section-normal > ul:nth-last-child(1) > li:nth-last-child(2) > a {
+    display: inline-block;
+    color: white;
+    background-color: #125d98;
+    width: 36px;
+    padding: 8px 8px;
+    border-radius: 4px;
+}
+
+.article-list > .article-section-normal > ul:nth-last-child(1) > li:nth-child(1) {
+    width: 25%;
+}
+
+.article-list > .article-section-normal > ul:nth-last-child(1) > li:nth-child(2) {
+    width: 50%;
+}
+
+.article-list > .article-section-normal > ul:nth-last-child(1) > li:nth-child(3) {
+    text-align: right;
+    width: 25%;
+
+}
+
+.article-list > .article-section-normal > ul:nth-last-child(1) > li:nth-child(2) > input {
+    font-size: 14px;
+    padding : 5px 8px;
+    width: 70%;
+    box-sizing: border-box;
+    border: none;
+    border-left: 3px solid #125d98;
+}
+
+.article-list > .article-section-normal > ul:nth-last-child(1) > li:nth-child(2) > input:focus {
+    outline: none;
+}
+
+
+@media screen and (max-width : 665px) {
+
+    .article-list > .article-section-normal {
+        display: none;
+    }
+
+    .article-list > .article-section-mobile {
+        padding : 30px 0;
+        display: block;        
+    }
+
+    .article-list > .article-section-mobile > div {
+        padding : 15px 0;
+    }
+
+    .article-list > .article-section-mobile .article-title {
+        padding: 10px 0;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 22px;
+    }
+    .article-list > .article-section-mobile .writer-info {
+        text-align: right;
+        font-size: 14px;
+    }
+    
+}
+
+
+
+/* ------------ 글 리스트 끝 --------------- */
+
+
+
+
+
+
+
+
+
+
 
 
 /* 글 작성 폼 */

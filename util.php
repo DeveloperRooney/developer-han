@@ -35,6 +35,7 @@ function jsLocationReplace($url, $msg = null) {
 function loginCk() {
     if(!isset($_SESSION['user'])) {
         jsHistoryBack("로그인 후 이용해주세요.");
+        exit;
     }
 }
 
