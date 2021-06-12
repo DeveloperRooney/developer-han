@@ -1,3 +1,60 @@
+/* 글 리스트 */
+
+.article-list {
+    width: 88%;
+    margin: 0 auto;
+}
+
+.article-list h1{
+    font-size: 22px;
+    font-weight: bold;
+    color: #125d98;
+    padding: 8px 0;
+}
+
+.article-list h2 {
+    padding: 8px 0;
+}
+
+.article-list select {
+    width: 100px;
+    height: 25px;
+}
+
+.article-list > section {
+    padding : 40px 0;
+}
+
+.article-list > section > ul {
+    padding : 7px 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-list > section > ul > li {
+    text-align: center;
+}
+
+.article-list > section > ul > li:nth-child(1) {
+    width: 10%;
+}
+
+.article-list > section > ul > li:nth-child(2) {
+    width: 40%;
+}
+.article-list > section > ul > li:nth-child(3) {
+    width: 10%;
+}
+.article-list > section > ul > li:nth-child(4) {
+    width: 30%;
+}
+.article-list > section > ul > li:nth-child(5) {
+    width: 10%;
+}
+
+
+/* 글 작성 폼 */
+
 .article-form {
     margin : 0 auto;
     width: 95%;
