@@ -111,15 +111,8 @@
                     <div class="writer-info">
                         김수한&nbsp;&nbsp;2021-06-12 16:52&nbsp;&nbsp;조회 100
                     </div>
-                </div>
-                <div>
-                    <div class="article-title">
-                        <a href="">
-                            자바가 어떤 언어인지 알고 싶습니다.
-                        </a>
-                    </div>
-                    <div class="writer-info">
-                        김수한&nbsp;&nbsp;2021-06-12 16:52&nbsp;&nbsp;조회 100
+                    <div class="speek-bubble">
+                        1
                     </div>
                 </div>
                 <div>
@@ -131,15 +124,8 @@
                     <div class="writer-info">
                         김수한&nbsp;&nbsp;2021-06-12 16:52&nbsp;&nbsp;조회 100
                     </div>
-                </div>
-                <div>
-                    <div class="article-title">
-                        <a href="">
-                            자바가 어떤 언어인지 알고 싶습니다.
-                        </a>
-                    </div>
-                    <div class="writer-info">
-                        김수한&nbsp;&nbsp;2021-06-12 16:52&nbsp;&nbsp;조회 100
+                    <div class="speek-bubble">
+                        1
                     </div>
                 </div>
                 <div>
@@ -151,6 +137,9 @@
                     <div class="writer-info">
                         김수한&nbsp;&nbsp;2021-06-12 16:52&nbsp;&nbsp;조회 100
                     </div>
+                    <div class="speek-bubble">
+                        1
+                    </div>
                 </div>
                 <div>
                     <div class="article-title">
@@ -160,6 +149,61 @@
                     </div>
                     <div class="writer-info">
                         김수한&nbsp;&nbsp;2021-06-12 16:52&nbsp;&nbsp;조회 100
+                    </div>
+                    <div class="speek-bubble">
+                        1
+                    </div>
+                </div>
+                <div>
+                    <div class="article-title">
+                        <a href="">
+                            자바가 어떤 언어인지 알고 싶습니다.
+                        </a>
+                    </div>
+                    <div class="writer-info">
+                        김수한&nbsp;&nbsp;2021-06-12 16:52&nbsp;&nbsp;조회 100
+                    </div>
+                    <div class="speek-bubble">
+                        1
+                    </div>
+                </div>
+                <div>
+                    <div class="article-title">
+                        <a href="">
+                            자바가 어떤 언어인지 알고 싶습니다.
+                        </a>
+                    </div>
+                    <div class="writer-info">
+                        김수한&nbsp;&nbsp;2021-06-12 16:52&nbsp;&nbsp;조회 100
+                    </div>
+                    <div class="speek-bubble">
+                        1
+                    </div>
+                </div>
+                <div>
+                    <div class="article-title">
+                        <a href="">
+                            자바가 어떤 언어인지 알고 싶습니다.
+                        </a>
+                    </div>
+                    <div class="writer-info">
+                        김수한&nbsp;&nbsp;2021-06-12 16:52&nbsp;&nbsp;조회 100
+                    </div>
+                    <div class="speek-bubble">
+                        1
+                    </div>
+                </div>
+                <div>
+                    <div class="article-title">
+                        <a href="">
+                            자바가 어떤 언어인지 알고 싶습니다.
+                        </a>
+                    </div>
+                    <div class="writer-info">
+                        김수한&nbsp;&nbsp;2021-06-12 16:52&nbsp;&nbsp;조회 100
+                    </div>
+                    <div class="speek-bubble">
+                        1
                     </div>
                 </div>
             </section>

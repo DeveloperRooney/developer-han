@@ -10,7 +10,6 @@
         <button type="button">LOGIN</button>
     </div>
 </div>
-
 <?php require_once "footer.php"; ?>
 
 </div>
